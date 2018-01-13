@@ -98,10 +98,10 @@ li{
 }*/
 
 #stake , #next-gain {
-    background-color: yellow;
     padding: 5px;
     margin-right: 800px;
     font-weight: bold;
+    color: whitesmoke;
 }
 .casePiege, .casePiegeRestante {
     background: red;
