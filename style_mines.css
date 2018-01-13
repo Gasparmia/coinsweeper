@@ -103,7 +103,7 @@ li{
     margin-right: 800px;
     font-weight: bold;
 }
-.casePiege {
+.casePiege, .casePiegeRestante {
     background: red;
 }
 
@@ -187,33 +187,8 @@ li{
 
 }
 
-
-.case
-
-.caseSafe {
-
-
-}
-
-.casepiege {
-
-
-}
-
-
-.casePiegerestante {
-
-
-
-}  /* case piegees restantes aprËs fin du jeu si perdu*/
-
-
-
-
-
 .cashout {
     margin-left: 710px;
-    margin-top: -50px;
     -moz-box-shadow: 0px 1px 0px 0px #fff6af;
     -webkit-box-shadow: 0px 1px 0px 0px #fff6af;
     box-shadow: 0px 1px 0px 0px #fff6af;
@@ -252,4 +227,8 @@ li{
 .cashout:active {
     position:relative;
     top:1px;
+}
+.bottomContainer {
+    position: fixed;
+    bottom: 0px;
 }
